@@ -1,65 +1,57 @@
-[![Kalan Stats](https://github-readme-stats.vercel.app/api?username=kjj6198)](https://me.kalan.dev)
+# Hi, I'm Kalan
 
-## About Me
+I'm a software engineer from Taiwan, living in Fukuoka, Japan, and the founder of [hinadev](https://hinadev.com).
 
-* **Name:** Kalan
-* **Role:** Frontend Engineer
-* **Location:** Fukuoka, Japan
-* **Twitter:** [@kalanyei](https://twitter.com/kalanyei)
-* **Blog:** https://blog.kalan.dev
+I spent 5.5 years as a frontend engineer and tech lead at LY Corporation (LINE Yahoo), then ran a five-person team as VP of Engineering at a manufacturing SaaS startup. Now I lead AI product work as a freelance tech lead and build my own products on the side.
 
-## Projects
+[link.kalan.dev](https://link.kalan.dev) | [Blog](https://blog.kalan.dev) | [X](https://x.com/kalanyei)
 
-* [日語八百屋 / Yaoya](https://www.shurado.com): A website / EDM that talk about Japanese Culture / Japanese Learning (Taiwanese Mandarin)
-* [Build Your Own X](https://build-your-own-x.now.sh): A clone for [build-your-own-x](https://github.com/danistefanovic/build-your-own-x) and convert it into website (written in Svelte)
-* [2017 Year in Review](https://kjj6198.github.io/yearly-report/): A website that records my 2017 activity
-* [勞工大代誌 / Labor Dairy](https://kjj6198.github.io/pround-of-labor/app/): A website that talks about Taiwan Labor Environment.
-* [福岡 COVID-19 疫情情報 / Fukuoka COVID-19 Info](https://fukuokacovid.info/): A website that visualize COVID-19 perfecture data in Fukuoka.
-* [動物之森圖鑑 / Animal Crossing Info](https://animal-crossing-info.now.sh/)
-* [台灣性侵害事件簿](https://assault-vdata.vercel.app/)
+## Now building
 
-## Interest (Programming)
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://suzuring.com"><img src="assets/suzuring.webp" alt="言鈴 KotoSuzu landing page with a 10:00 timer between two speakers"></a>
+<h3><a href="https://suzuring.com">言鈴 KotoSuzu</a></h3>
+Realtime voice language exchange between Taiwan and Japan. Every night you talk with one person from the other side for 20 minutes, half in Mandarin and half in Japanese. The app switches languages when time is up.
+</td>
+<td width="50%" valign="top">
+<a href="https://hinacode.app"><img src="assets/hinacode.webp" alt="HinaCode landing page: Agent harness with taste and focus"></a>
+<h3><a href="https://hinacode.app">HinaCode</a></h3>
+A desktop app for running Claude Code and Codex side by side, each in its own git worktree. It stays quiet while the agents work and tells you which one needs you.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/kjj6198/agent-sandbox"><img src="assets/agent-sandbox.webp" alt="Bar chart of time to first command. Firecracker restore takes 29 ms, a normal VM takes 9.7 s"></a>
+<h3><a href="https://github.com/kjj6198/agent-sandbox">agent-sandbox</a></h3>
+Tiny Firecracker microVMs for AI agents. Each sandbox restores from a snapshot of a booted VM and answers its first command in 29 ms. I benchmarked gVisor and Cloud Hypervisor before picking Firecracker.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/kjj6198/live-translation"><img src="assets/live-translation.webp" alt="English and Japanese subtitles floating over a slide"></a>
+<h3><a href="https://github.com/kjj6198/live-translation">live-translation</a></h3>
+Live English ⇄ Japanese subtitles on top of your slides. A macOS menu bar app built on Apple's on-device Speech and Translation frameworks, so it needs no API key and no audio leaves the Mac.
+</td>
+</tr>
+</table>
 
-### Frontend
+## Side projects
 
-* JavaScript
-* UI Interaction / Browser related technology
-* Mostly using `React`, has experience for `Vue`
-* Lovely tech stack: React + RxJS + redux + redux-observable + styled-components
-* Currently liking `Svelte`, have made one [contribution](https://github.com/sveltejs/svelte/pull/4733).
-* Want to get more familiar about data visualization and story telling.
-* How frontend / browser can do with AI / Machine Learning
+<a href="https://room.kalan.dev"><img src="assets/room.webp" align="right" width="42%" alt="Kalan's Room, a 3D room with a desk, guitar, and bookshelf"></a>
 
-### IoT
+- [Kalan's Room](https://room.kalan.dev) is my portfolio as a 3D room. Click the desk, guitar, or bookshelf for a story.
+- [看見數字背後](https://vdata.assult.kalan.blog) visualizes Taiwan's sexual assault statistics from 2008 to 2025.
+- [勞工大代誌](https://vdata.labor.kalan.blog) visualizes Taiwan's wages, working hours, and labor history from 2012 to 2025.
+- [meeto-iot](https://github.com/kjj6198/meeto-iot) shows my next macOS Calendar event on an OLED screen over Bluetooth LE.
+- [ts-arib-parse](https://github.com/kjj6198/ts-arib-parse) reads ARIB STD-B24, the subtitle format of Japanese TV, out of MPEG-TS streams.
+- [pomodoro](https://github.com/kjj6198/pomodoro) is an Arduino pomodoro timer built on timer interrupts.
 
-* Arduino
-* Raspberry Pi: Have made a wiki server and small scheduler to handle daily job.
-* 6502：Used for studying how CPU works
+<details>
+<summary>More</summary>
 
-### App
+- [cloudflare-images-cli](https://github.com/kjj6198/cloudflare-images-cli) is `cfi`, a Rust CLI for Cloudflare Images. `brew install kjj6198/tap/cfi`
+- [go-gui](https://github.com/kjj6198/go-gui) lets you play Go against KataGo, with live analysis and game review.
+- [Podcast](https://github.com/kjj6198/Podcast) is the website for [八百屋 Boys](https://yaoyaboys.com), a Mandarin podcast about life and work in Japan.
+- [refined-slack-hubot](https://github.com/kjj6198/refined-slack-hubot) is a Hubot-style Slack bot for GitHub releases, deployments, and review requests.
 
-* Have learned Java, Android development in college
-* Learning `iOS` and `Swift`, want to learn Swift UI and Combine.
-* Have been using CoreNFC to read SUICA (FeliCa). [post](https://blog.kalan.dev/core-nfc-en/) [code](https://github.com/kjj6198/swift-core-nfc-reader)
-
-### Backend / Others
-
-* Half-year `golang` experience, mostly using in small side-project. [posts](https://blog.kalan.dev/categories/golang)
-* Have learned Machine Learning course, but forgot mostly. [t-SNE and PCA](https://medium.com/d-d-mag/%E6%B7%BA%E8%AB%87%E5%85%A9%E7%A8%AE%E9%99%8D%E7%B6%AD%E6%96%B9%E6%B3%95-pca-%E8%88%87-t-sne-d4254916925b)
-* Learning how to build infrastructure.
-* Learning basic Data Science
-* Have built EC2 / ElasticSearch / Lambda, Ansible.
-* DB: Mostly using `Postgres`
-  * SQL Syntax
-  * INDEX Setting
-* Want to learn:
-  * Kafka to build data / log stream pipeline
-  * Nginx setting
-  * Grafana and Promethues
-  
-## Others
-
-* Travel
-* Cooking
-* Game
-* Music
+</details>
