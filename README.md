@@ -18,7 +18,7 @@ Realtime voice language exchange between Taiwan and Japan. Every night you talk 
 <td width="50%" valign="top">
 <a href="https://hinacode.app"><img src="assets/hinacode.webp" alt="HinaCode landing page: Agent harness with taste and focus"></a>
 <h3><a href="https://hinacode.app">HinaCode</a></h3>
-A desktop app for running Claude Code and Codex side by side, each in its own git worktree. It stays quiet while the agents work and tells you which one needs you.
+A desktop app for macOS and Linux that runs Claude Code and Codex side by side, each in its own git worktree. It stays quiet while the agents work and tells you which one needs you.
 </td>
 </tr>
 <tr>
@@ -45,6 +45,8 @@ Live English ⇄ Japanese subtitles on top of your slides. A macOS menu bar app 
 - [meeto-iot](https://github.com/kjj6198/meeto-iot) shows my next macOS Calendar event on an OLED screen over Bluetooth LE.
 - [ts-arib-parse](https://github.com/kjj6198/ts-arib-parse) reads ARIB STD-B24, the subtitle format of Japanese TV, out of MPEG-TS streams.
 - [pomodoro](https://github.com/kjj6198/pomodoro) is an Arduino pomodoro timer built on timer interrupts.
+
+<br clear="right">
 
 <details>
 <summary>More</summary>
