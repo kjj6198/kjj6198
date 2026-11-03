@@ -16,7 +16,7 @@ I spent 5.5 years as a frontend engineer and tech lead at LY Corporation (LINE Y
 Realtime voice language exchange between Taiwan and Japan. Every night you talk with one person from the other side for 20 minutes, half in Mandarin and half in Japanese. The app switches languages when time is up.
 </td>
 <td width="50%" valign="top">
-<a href="https://hinacode.app"><img src="assets/hinacode.webp" alt="HinaCode landing page: Agent harness with taste and focus"></a>
+<a href="https://hinacode.app"><img src="assets/hinacode.webp" alt="HinaCode landing page: Run many agents. Know which one needs you."></a>
 <h3><a href="https://hinacode.app">HinaCode</a></h3>
 A desktop app for running Claude Code and Codex side by side, each in its own git worktree. It stays quiet while the agents work and tells you which one needs you.
 </td>
